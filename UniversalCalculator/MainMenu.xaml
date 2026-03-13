@@ -15,22 +15,33 @@
 					<TextBlock Text="Universal Calculator" FontSize="40" Foreground="Black" Height="100" VerticalAlignment="Top" MaxWidth="500"
 							TextAlignment="Center"/>
 				</StackPanel>
+<<<<<<< HEAD
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 				<Button x:Name="MathCalcButton" Content="Math Calculator" Background="DarkGreen" VerticalAlignment="Top" Width="300" Height="50"
 							Margin="10"/>
 			</StackPanel>
 
+=======
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+					<Button x:Name="MathCalcButton" Content="Math Calculator" Background="DarkGreen" VerticalAlignment="Top" Width="300" Height="50"
+							Margin="10" Click="MathCalcButton_Click"/>
+				</StackPanel>
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+				<Button x:Name="CurrencyCalcButton" Content="Currency Calculator" Background="Blue" VerticalAlignment="Top" Width="300" Height="50"
+						Margin="10" Click="currencyCalcButton_Click"/>
+			</StackPanel>
+>>>>>>> f2c4db8d4c84fa2a19a4cdd3807cf821ce0d0973
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 					<Button x:Name="MortgageCalcButton" Content="Mortgage Calculator" Background="Gray" VerticalAlignment="Top" Width="300" Height="50"
 							Margin="10" Click="MortgageCalcButton_Click"/>
 				</StackPanel>
 				<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 					<Button x:Name="TripCalcButton" Content="Trip Calculator" Background="Gray" VerticalAlignment="Top" Width="300" Height="50"
-							Margin="10"/>
+							Margin="10" Click="TripCalcButton_Click"/>
 				</StackPanel>
 				<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 					<Button x:Name="ExitButton" Content="Exit Calculator" Background="Gray" VerticalAlignment="Top" Width="300" Height="50"
-							Margin="10"/>
+							Margin="10" Click="ExitButton_Click"/>
 				</StackPanel>
 			</StackPanel>
 		<Image Source="/Assets/abacus.jpg" HorizontalAlignment="Right" VerticalAlignment="Top" Width="300"/>
