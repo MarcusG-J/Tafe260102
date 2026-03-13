@@ -119,13 +119,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="mortgagaCalculator.xaml.cs">
       <DependentUpon>mortgagaCalculator.xaml</DependentUpon>
-=======
-    <Compile Include="CurrencyConverter.xaml.cs">
-      <DependentUpon>CurrencyConverter.xaml</DependentUpon>
->>>>>>> f2c4db8d4c84fa2a19a4cdd3807cf821ce0d0973
     </Compile>
     <Compile Include="MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
