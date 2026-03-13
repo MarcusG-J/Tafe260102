@@ -36,7 +36,7 @@ namespace Calculator
 
 		}
 
-		private void calulatorButton_Click(object sender, RoutedEventArgs e)
+		private void CalulatorButton_Click(object sender, RoutedEventArgs e)
 		{
 			const int PER_KILO = 2;
 			const int PER_DAY = 150;

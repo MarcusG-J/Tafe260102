@@ -39,7 +39,7 @@ namespace Calculator
 			this.Frame.Navigate(typeof(MainMenu));
 		}
 
-		private void calculateButton_Click(object sender, RoutedEventArgs e)
+		private void CalculateButton_Click(object sender, RoutedEventArgs e)
 		{
 			repaymentTextBox.Text = "";
 			double yearlyIntrest = double.Parse(annualTextBox.Text);

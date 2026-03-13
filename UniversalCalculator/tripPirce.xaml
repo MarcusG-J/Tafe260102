@@ -39,7 +39,7 @@
 				<TextBox x:Name="amountTOPayTeckBox" Width="200" Height="30" IsReadOnly="True"></TextBox>
 			</StackPanel>
 			<StackPanel Orientation="Horizontal" Padding="200, 5, 0, 0" Height="96" RenderTransformOrigin="0.501,0.437">
-				<Button x:Name="calulatorButton" Click="calulatorButton_Click"  Content="Calulator Total" Margin="100, 0, 100, 0" Foreground="Black" Width="150" Height="30" FontSize="14" Background="White"></Button>
+				<Button x:Name="calulatorButton" Click="CalulatorButton_Click"  Content="Calulator Total" Margin="100, 0, 100, 0" Foreground="Black" Width="150" Height="30" FontSize="14" Background="White"></Button>
 				<Button x:Name="exitButton" Click="exitButton_Click"  Content="Exit" Foreground="Black"  Width="150" Background="White" Height="30" FontSize="14"></Button>
 			</StackPanel>
 		</StackPanel>
