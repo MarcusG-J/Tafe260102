@@ -43,7 +43,7 @@
 
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Width="490">
 				<Button x:Name="calculateButton" FontSize="25" Content="Calculate" Margin="10" HorizontalAlignment="Right" BorderBrush="Green"
-				Click="calculateButton_Click"/>
+				Click="CalculateButton_Click"/>
 				<Button x:Name="exitButton" FontSize="25" Content="Exit" Margin="10" HorizontalAlignment="Right" BorderBrush="Red"
 				Click="exitButton_Click"/>
 			</StackPanel>

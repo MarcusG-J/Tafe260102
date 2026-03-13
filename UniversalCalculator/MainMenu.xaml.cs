@@ -30,7 +30,7 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(tripPirce));
 		}
-		private void currencyCalcButton_Click(object sender, RoutedEventArgs e)
+		private void CurrencyCalcButton_Click(object sender, RoutedEventArgs e)
 		{
 			this.Frame.Navigate(typeof(CurrencyConverter));
 		}

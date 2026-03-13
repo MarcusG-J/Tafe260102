@@ -29,7 +29,7 @@ namespace Calculator
 			this.InitializeComponent();
 		}
 
-		private async void calculateButton_Click(object sender, RoutedEventArgs e)
+		private async void CalculateButton_Click(object sender, RoutedEventArgs e)
 		{
 			double outputAmount;
 			double outputCalc;

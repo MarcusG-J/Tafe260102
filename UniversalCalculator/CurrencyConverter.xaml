@@ -118,7 +118,7 @@
 					<TextBlock x:Name="toFromTextBlock" Text="" FontSize="26" Margin="0,20" />
 				</StackPanel>
 				<StackPanel>
-					<Button x:Name="calculateButton" Content="Calculate Currency" Click="calculateButton_Click" />
+					<Button x:Name="calculateButton" Content="Calculate Currency" Click="CalculateButton_Click" />
 					<Button x:Name="exitButton" Content="Exit" Click="exitButton_Click" />
 				</StackPanel>
 			</StackPanel>
