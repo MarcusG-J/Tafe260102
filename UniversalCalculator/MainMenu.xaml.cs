@@ -20,11 +20,12 @@ namespace Calculator
 			InitializeComponent();
 		}
 
-<<<<<<< HEAD
+
 		private void MortgageCalcButton_Click(object sender, RoutedEventArgs e)
 		{
 			this.Frame.Navigate(typeof(mortgagaCalculator));
-=======
+		}
+
 		private void TripCalcButton_Click(object sender, RoutedEventArgs e)
 		{
 			this.Frame.Navigate(typeof(tripPirce));
@@ -43,7 +44,7 @@ namespace Calculator
 		{
 			CoreApplication.Exit();
 
->>>>>>> f2c4db8d4c84fa2a19a4cdd3807cf821ce0d0973
+
 		}
 	}
 }
