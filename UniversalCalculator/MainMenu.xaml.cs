@@ -19,5 +19,10 @@ namespace Calculator
 		{
 			InitializeComponent();
 		}
+
+		private void TripCalcButton_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(tripPirce));
+		}
 	}
 }
