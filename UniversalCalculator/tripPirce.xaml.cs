@@ -19,6 +19,7 @@ namespace Calculator
 {
 	/// <summary>
 	/// An empty page that can be used on its own or navigated to within a Frame.
+	/// Author Marcus Moore  feature trip price
 	/// </summary>
 	public sealed partial class tripPirce : Page
 	{
